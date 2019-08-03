@@ -1,0 +1,130 @@
+/* SECTION DES BALISES */
+
+body{
+
+	background-color: #726b6b;
+	padding: 20px;
+}
+
+img { 
+    border: 3px solid black; 
+}
+
+h2{
+
+	font-size: 28px;
+	color: #3388DD;
+	border-bottom-width: 2px;
+ 	border-bottom-style: dashed;
+ 	border-bottom-color: black;
+ 	border-top-width: 10px;
+ 	border-top-style: solid;
+ 	border-top-color: red;	
+ 	
+}
+
+
+/* SECTION DES CLASS */
+.titre{
+
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.page{
+
+	width: 900px;
+	margin: auto;
+	font-family: "Source sans Pro", Calibri, Tahoma, sans-serif;
+	font-size: 19px;
+	border: 5px solid #3388CC;
+	border-radius: 10px;
+	box-shadow: 2px 4px 3px black;
+	padding: 20px;
+	background-color: white;
+}
+
+.infophoto{
+
+	height: 250px
+}
+
+.info{
+
+	float: left;
+}
+
+.photo{
+
+	float: right;
+}
+
+.section{
+
+	margin-bottom: 70px;
+	text-align: justify;
+}
+
+.section:hover{
+
+	color: #00AA00
+}
+
+.sec-gauche{
+
+	float: left;
+	font-weight: bold;
+	font-size: 19px;
+	margin-top: 15px;
+}
+
+.sec-droite{
+
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+
+/* SECTION ID POUR BALISE DIV FRANCE */
+#exp-gauche-france p{
+
+	margin-top: 55px;
+}
+
+#exp-droite-france p{
+
+	margin-top: 30px;
+}
+
+#exp-pro-france{
+
+	line-height: 30px;
+}
+
+#exp-sub-france{
+
+	line-height: 40px;
+}
+
+
+/* SECTION ID POUR BALISE DIV SUISSE */
+#exp-gauche-suisse p{
+
+	line-height: 57px;
+
+}
+
+#exp-droite-suisse p{
+
+	margin-top: 55px;
+}
+
+#exp-pro-suisse{
+
+	line-height: 29px;
+}
+
+#lang-interet{
+
+	line-height: 20px;
+}
